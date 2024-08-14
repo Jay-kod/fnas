@@ -27,21 +27,7 @@
             </div>   
         
             <!-- ============================================================================================================================== -->
-            <script>
-                function getCurrentTime() {
-                    const now = new Date();
-                // You can format the time here (optional)
-                return now.toLocaleTimeString();
-              }
-
-                const timeElement = document.getElementById("currentTime");
-
-                function updateTime() {
-                    timeElement.textContent = getCurrentTime();
-                }
-                
-                setInterval(updateTime, 1000); // Update every second
-            </script>
+            
             <!-- nav bar -->
                 <nav class="navbar nav-underline navbar-expand-sm navbar-dark sticky-top" style="background-color: #152106;">
                     <div class="container-fluid">
@@ -101,28 +87,34 @@
                                 <div class="carousel-item active">
                                     <div class="w3-text-white" style="background-color: #3c3c3b; background-image: url(Images/edithed.jpg); background-repeat: no-repeat; 
                                     background-position: center; background-size: cover; background-blend-mode: multiply; height: 500px; min-height: 300px; max-width: 100%; min-width: 50%;">
-                                        <div class="carousel-caption"><a href="Home.html" style="text-decoration: none;">
-                                            <h2 style="color: white;">WELCOME TO FACULTY OF NATURAL AND APPLIED SCIENCE</h2>
-                                            <h5 style="color: white;">NASARAWA STATE UNIVERSITY, KEFFI-NIGERIA.</h5>
-                                        </div></a>
+                                        <div class="carousel-caption" style="padding-bottom: 160px;">
+                                            <a href="Home.html" style="text-decoration: none;">
+                                                <h2 style="color: white;">WELCOME TO FACULTY OF NATURAL AND APPLIED SCIENCE</h2>
+                                                <h5 style="color: white;">NASARAWA STATE UNIVERSITY, KEFFI-NIGERIA.</h5>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="w3-text-white" style="background-color: #3c3c3b; background-image: url(Images/Nasarawa\ State\ University_1k\ seater.webp); background-repeat: no-repeat; 
                                     background-position: center; background-size: cover; background-blend-mode: multiply; height: 500px; min-height: 300px; max-width: 100%; min-width: 50%;">
-                                        <div class="carousel-caption"><a href="About.html" style="text-decoration: none;">
-                                            <h2 style="color: white;">WELCOME TO FNAS</h2>
-                                            <h5 style="color: white;">TO TRAIN STUDENTS WHO WILL TRANSLATE THE IDEAS OF THE COMMUNITY TO REALITY.</h5>
-                                        </div></a>
+                                        <div class="carousel-caption" style="padding-bottom: 160px;">
+                                            <a href="About.html" style="text-decoration: none;">
+                                                <h2 style="color: white;">WELCOME TO FNAS</h2>
+                                                <h5 style="color: white;">TO TRAIN STUDENTS WHO WILL TRANSLATE THE IDEAS OF THE COMMUNITY TO REALITY.</h5>
+                                            </a>
+                                        </div>
                                     </div> 
                                 </div>
                                 <div class="carousel-item">
                                     <div class="w3-text-white" style="background-color: #3c3c3b; background-image: url(Images/gate3.webp); background-repeat: no-repeat; 
                                     background-position: center; background-size: cover; background-blend-mode: multiply; height: 500px; min-height: 300px; max-width: 100%; min-width: 50%;">
-                                        <div class="carousel-caption"><a href="Join-us.html" style="text-decoration: none;">
-                                            <h2 style="color: white;">WELCOME TO HAVE A TOUR</h2>
-                                            <h5 style="color: white;">CHECKOUT OUR DEPARTMENTS AND HAVE REASON(S) TO JOIN US...</h5>
-                                        </div></a>
+                                        <div class="carousel-caption" style="padding-bottom: 160px;">
+                                            <a href="Join-us.html" style="text-decoration: none;">
+                                                <h2 style="color: white;">WELCOME TO HAVE A TOUR</h2>
+                                                <h5 style="color: white;">CHECKOUT OUR DEPARTMENTS AND HAVE REASON(S) TO JOIN US...</h5>
+                                            </a>
+                                        </div>
                                     </div>  
                                 </div>
                             </div>
@@ -143,37 +135,7 @@
                     <!-- ============================================================================================================================== -->
                     <!-- slideshow -->
 
-                        <div class="w3-container-fluid mt-1" style="margin-top: 10px;">
-                            <div class="w3-third w3-container-fluid p-1" style="margin-top: 0px;">
-                                <div class="w3-text-white w3-round" style="background-color: #3c3c3b; background-image: url(Images/nsuk-staff-image.webp); background-repeat: no-repeat; 
-                                background-position: center; background-size: cover; background-blend-mode: multiply; height: 200px; width: 100%;">
-                                    <div class="w3-center w3-container">
-                                        <img src="Images/icons/lecturer.png" alt="staff population" width="20%" style="color: white; padding-top: 30px;">
-                                        <p style="color: white; font-weight: bolder;">STAFF POPULATION</p>
-                                        <p style="color: white; font-weight: bolder; font-size: x-large; margin-top: -20px;">100+</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w3-third w3-container-fluid p-1" style="margin-top: 0px;">
-                                <div class="w3-text-white w3-round" style="background-color: #3c3c3b; background-image: url(Images/student\ background.webp); background-repeat: no-repeat; 
-                                background-position: center; background-size: cover; background-blend-mode: multiply; height: 200px; width: 100%;">
-                                    <div class="w3-center w3-container">
-                                        <img src="Images/icons/student.png" alt="student population" width="20%" style="padding-top: 30px;">
-                                        <p style="color: white; font-weight: bolder;">STUDENTs POPULATION</p>
-                                        <p style="color: white; font-weight: bolder; font-size: x-large; margin-top: -20px;">35,000+</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w3-third w3-container-fluid p-1" style="margin-top: 0px;">
-                                <div class="w3-text-white w3-round" style="background-color: #3c3c3b; background-image: url(Images/courses\ background.webp); background-repeat: no-repeat; 
-                                background-position: center; background-size: cover; background-blend-mode: multiply; height: 200px; width: 100%;">
-                                    <div class="w3-center w3-container">
-                                        <img src="Images/icons/courses.png" alt="courses" width="20%" style="padding-top: 30px;">
-                                        <p style="color: white; font-weight: bolder;">COURSES</p>
-                                        <p style="color: white; font-weight: bolder; font-size: x-large; margin-top: -20px;">10+</p>
-                                    </div>
-                                </div>
-                            </div>
+                        
         
             <br><br><br>
             <!-- ============================================================================================================================== -->
@@ -283,7 +245,40 @@
                                 </div>
                             </div>
                         </div>
-        
+
+            <!-- ============================================================================================================================== -->
+            <!-- small tips about the faculty -->
+                    <div class="w3-container-fluid mt-1" style="margin-top: 10px;">
+                            <div class="w3-third w3-container-fluid p-1" style="margin-top: 0px;">
+                                <div class="w3-text-white w3-round" style="background-color: #3c3c3b; background-image: url(Images/nsuk-staff-image.webp); background-repeat: no-repeat; 
+                                background-position: center; background-size: cover; background-blend-mode: multiply; height: 200px; width: 100%;">
+                                    <div class="w3-center w3-container">
+                                        <img src="Images/icons/lecturer.png" alt="staff population" width="20%" style="color: white; padding-top: 30px;">
+                                        <p style="color: white; font-weight: bolder;">STAFF POPULATION</p>
+                                        <p style="color: white; font-weight: bolder; font-size: x-large; margin-top: -20px;">100+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-container-fluid p-1" style="margin-top: 0px;">
+                                <div class="w3-text-white w3-round" style="background-color: #3c3c3b; background-image: url(Images/student\ background.webp); background-repeat: no-repeat; 
+                                background-position: center; background-size: cover; background-blend-mode: multiply; height: 200px; width: 100%;">
+                                    <div class="w3-center w3-container">
+                                        <img src="Images/icons/student.png" alt="student population" width="20%" style="padding-top: 30px;">
+                                        <p style="color: white; font-weight: bolder;">STUDENTs POPULATION</p>
+                                        <p style="color: white; font-weight: bolder; font-size: x-large; margin-top: -20px;">35,000+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-container-fluid p-1" style="margin-top: 0px;">
+                                <div class="w3-text-white w3-round" style="background-color: #3c3c3b; background-image: url(Images/courses\ background.webp); background-repeat: no-repeat; 
+                                background-position: center; background-size: cover; background-blend-mode: multiply; height: 200px; width: 100%;">
+                                    <div class="w3-center w3-container">
+                                        <img src="Images/icons/courses.png" alt="courses" width="20%" style="padding-top: 30px;">
+                                        <p style="color: white; font-weight: bolder;">COURSES</p>
+                                        <p style="color: white; font-weight: bolder; font-size: x-large; margin-top: -20px;">10+</p>
+                                    </div>
+                                </div>
+                            </div>
             <!-- ============================================================================================================================== -->
             <!-- apply for admission div -->
                 
